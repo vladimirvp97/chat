@@ -29,9 +29,3 @@ dependencies {
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test
     testImplementation group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.0.0.RELEASE'
 }
-
-checkstyle {
-    ignoreFailures = false
-    toolVersion = '7.5'
-    configFile = new File('../config/checkstyle/checkstyle.xml')
-}
